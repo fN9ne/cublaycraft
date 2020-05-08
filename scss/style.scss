@@ -13,6 +13,7 @@ $blue: #2E357B;
 $gray: #253238;
 $green: #269C0B;
 // Свои стили
+// Main page
 // Меню
 .page {
 	font-family: 'Montserrat', sans-serif;
@@ -260,8 +261,7 @@ $green: #269C0B;
 		width: 1080px;
 		height: 910px;
 		z-index: 7;
-		position: relative;
-		background: url('/img/minecraft.jpg') 0 0 no-repeat;
+		background: url('/img/minecraft.jpg') 0 0/100% 100% no-repeat;
 	}
 	&__information {
 		width: 310px;
@@ -722,7 +722,7 @@ $green: #269C0B;
 		user-select: none;
 		color: #F6F6F6;
 		position: absolute;
-		font-size: 280px;
+		font-size: 240px;
 		line-height: 203px;
 		font-family: Minecraft;
 		position: absolute;
@@ -879,7 +879,6 @@ $green: #269C0B;
 		color: #fff;
 	}
 }
-
 @keyframes arrow{
 	0%{
 		opacity: 0%;
@@ -893,4 +892,145 @@ $green: #269C0B;
 @keyframes anmr{
 	0%{right: -50px;opacity: 0%}
 	50%{right: 20px;opacity: 100%}
+}
+// О нас страница
+// О нас
+.au {
+	&__about-us {
+		margin-top: 200px;
+		display: flex;
+		justify-content: center;
+		position: relative;
+	}
+	&__container {
+		width: 1300px;
+		position: relative;
+	}
+	&__bg-text {
+		position: absolute;
+		font-size: 280px;
+		line-height: 203px;
+		font-family: Minecraft;
+		color: #F6F6F6;
+		user-select: none;
+		z-index: -1;
+		&:nth-child(1){
+			top: 0;
+			right: -200px;
+		}
+		&:nth-child(2){
+			bottom: 100px;
+			right: -200px;
+		}
+	}
+	&__title {
+		font-family: Play;
+		color: $gray;
+		font-weight: bold;
+		font-size: 55px;
+		line-height: 70px;
+		margin-bottom: 100px;
+	}
+	&__beginnings {
+		& p{
+			font-family: Montserrat;
+			font-size: 18px;
+			line-height: 30px;
+			margin: 15px 0;
+		}
+	}
+	&__beginnings-title {
+		font-family: Play;
+		color: $gray;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 70px;
+		margin-bottom: 50px;
+	}
+	&__beginnings-picture {
+		width: 530px;
+		height: 530px;
+		position: absolute;
+		top: 110px;
+		right: 0;
+		background: url('/img/cublay.jpg') 0 0 no-repeat;
+	}
+}
+// Почему наш сервер самый дружный и ламповый
+.advantages {
+	&__mp-title {
+		font-family: Play;
+		font-weight: bold;
+		font-size: 30px;
+		color: $gray;
+		line-height: 45px;
+		margin: 40px 240px 0 0;
+	}
+	&__mp-subtitle {
+		margin: 40px 270px 0 0;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	&__farm-title {
+		font-family: Play;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 45px;
+		color: $gray;
+		margin: 40px 270px 0 0;
+	}
+	&__farm-subtitle {
+		margin: 20px 270px 0 0;
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+.unknown {
+	margin-top: 100px;
+	color: $gray;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	&__title {
+		width: 1300px;
+		font-family: Play;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 70px;
+	}
+	&__nav{
+		display: flex;
+		width: 1300px;
+		justify-content: space-between;	
+	}
+	&__list {
+		margin-top: 50px;
+	}
+	&__list-title {
+		margin-bottom: 20px;
+		font-family: Play;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 45px;
+	}
+	&__items {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	&__text1{
+		margin: 15px 0;
+	}
+	&__text {
+		margin: 15px 0;
+		position: relative;
+		&:before{
+			position: absolute;
+			content: '';
+			left: -20px;
+			width: 10px;
+			top: 13px;
+			height: 10px;
+			background: $blue;
+		}
+	}
 }
