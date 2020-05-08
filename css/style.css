@@ -155,27 +155,27 @@ h1, h2, h3, h4, h5, h6 {
 .page__social-link:nth-child(1) {
   height: 40px;
   width: 40px;
-  background: url("img/vk.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/vk.svg") 0 0/100% 100% no-repeat;
 }
 .page__social-link:nth-child(1):hover {
-  background: url("img/cvk.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cvk.svg") 0 0/100% 100% no-repeat;
 }
 .page__social-link:nth-child(2) {
   height: 40px;
   width: 40px;
-  background: url("img/yt.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/yt.svg") 0 0/100% 100% no-repeat;
 }
 .page__social-link:nth-child(2):hover {
-  background: url("img/cyt.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cyt.svg") 0 0/100% 100% no-repeat;
 }
 .page__social-link:nth-child(3) {
   height: 40px;
   width: 40px;
-  background: url("img/insta.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/insta.svg") 0 0/100% 100% no-repeat;
   margin: 0 22px 0 5px;
 }
 .page__social-link:nth-child(3):hover {
-  background: url("img/cinsta.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cinsta.svg") 0 0/100% 100% no-repeat;
 }
 .page__discord {
   font-weight: 500;
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 6px;
   right: 34px;
   height: 40px;
-  background: url("img/discord.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/discord.svg") 0 0/100% 100% no-repeat;
 }
 
 .page__header {
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   left: -40px;
   top: -40px;
   border-radius: 50%;
-  background: url("img/logo.png") 0 0/100% 100% no-repeat;
+  background: url("../img/logo.png") 0 0/100% 100% no-repeat;
 }
 .page .page__citate-logo:hover .page__citate-yt-logo:after {
   width: 46.8px;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   right: 0;
   position: absolute;
-  background: url("img/yt_logo.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/yt_logo.svg") 0 0/100% 100% no-repeat;
 }
 .page__citate-text a {
   color: #2e357b;
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 910px;
   z-index: 7;
   position: relative;
-  background: url("img/minecraft.jpg") 0 0 no-repeat;
+  background: url("../img/minecraft.jpg") 0 0 no-repeat;
 }
 .page__information {
   width: 310px;
@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%) translateX(-50%);
   width: 60px;
   height: 60px;
-  background: url("img/play.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/play.svg") 0 0/100% 100% no-repeat;
 }
 
 .page__about-us {
@@ -454,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 48px;
   left: 150px;
   bottom: -13px;
-  background: url("img/arrow.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/arrow.svg") 0 0/100% 100% no-repeat;
 }
 .page .about-us__link a:hover {
   text-decoration: none;
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 530px;
   width: 100%;
   height: 100%;
-  background: url("img/cublay.jpg") 0 0/100% 100% no-repeat;
+  background: url("../img/cublay.jpg") 0 0/100% 100% no-repeat;
 }
 .page .text {
   margin-top: 120px;
@@ -520,7 +520,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: -100px;
   left: -400px;
-  background: url("img/s1200.png") 0 0/100% 100% no-repeat;
+  background: url("../img/s1200.png") 0 0/100% 100% no-repeat;
 }
 .page .donate__text {
   font-family: Play;
@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: anmr 3s infinite;
 }
 .advantages__server-picture {
-  background: url("img/img1.png") 0 0 no-repeat;
+  background: url("../img/img1.png") 0 0 no-repeat;
   width: 310px;
   height: 310px;
   position: absolute;
@@ -704,7 +704,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: anmr 3s infinite;
 }
 .advantages__vip-picture {
-  background: url("img/img2.png") 0 0 no-repeat;
+  background: url("../img/img2.png") 0 0 no-repeat;
   width: 310px;
   height: 310px;
   position: absolute;
@@ -746,7 +746,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: anmr 3s infinite;
 }
 .advantages__video-picture {
-  background: url("img/img3.png") 0 0 no-repeat;
+  background: url("../img/img3.png") 0 0 no-repeat;
   width: 310px;
   height: 400px;
   position: absolute;
@@ -876,7 +876,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-200%) translateX(-35px);
   bottom: 144px;
   transition: 0.2s;
-  background: url("img/slider_arrow_left.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/slider_arrow_left.svg") 0 0/100% 100% no-repeat;
 }
 .page__slider__images .slick-arrow.slick-prev:active {
   transition: 0.2s;
@@ -887,7 +887,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-100%);
   bottom: 144px;
   transition: 0.2s;
-  background: url("img/slider_arrow_right.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/slider_arrow_right.svg") 0 0/100% 100% no-repeat;
 }
 .page__slider__images .slick-arrow.slick-next:active {
   transition: 0.2s;
@@ -930,7 +930,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 20px;
   height: 85px;
   position: relative;
-  background: url("img/logo.png") 0 0/100% 100% no-repeat;
+  background: url("../img/logo.png") 0 0/100% 100% no-repeat;
   transition: 0.2s;
 }
 .footer__logo:hover {
@@ -950,7 +950,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 0;
   bottom: 0;
-  background: url("img/yt_logo.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/yt_logo.svg") 0 0/100% 100% no-repeat;
 }
 .footer__text {
   font-family: Montserrat;
@@ -982,7 +982,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   top: 4px;
   right: 34px;
-  background: url("img/discord.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/discord.svg") 0 0/100% 100% no-repeat;
 }
 .footer__button div:hover {
   transition: 0.2s;
@@ -990,7 +990,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #253238;
 }
 .footer__button div:hover:after {
-  background: url("img/cdiscord.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cdiscord.svg") 0 0/100% 100% no-repeat;
 }
 .footer__social {
   display: flex;
@@ -1011,27 +1011,27 @@ h1, h2, h3, h4, h5, h6 {
   width: 52px;
   height: 40px;
   margin-right: 20px;
-  background: url("img/footer_vk.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/footer_vk.svg") 0 0/100% 100% no-repeat;
 }
 .footer__vk:hover {
-  background: url("img/cfooter_vk.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cfooter_vk.svg") 0 0/100% 100% no-repeat;
 }
 .footer__yt {
   width: 45px;
   height: 40px;
   margin-right: 20px;
-  background: url("img/footer_yt.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/footer_yt.svg") 0 0/100% 100% no-repeat;
 }
 .footer__yt:hover {
-  background: url("img/cfooter_yt.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cfooter_yt.svg") 0 0/100% 100% no-repeat;
 }
 .footer__insta {
   width: 40px;
   height: 35px;
-  background: url("img/footer_insta.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/footer_insta.svg") 0 0/100% 100% no-repeat;
 }
 .footer__insta:hover {
-  background: url("img/cfooter_insta.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/cfooter_insta.svg") 0 0/100% 100% no-repeat;
 }
 .footer__up {
   width: 90px;
@@ -1054,7 +1054,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 50%;
   transform: translateY(-25%);
-  background: url("img/arrow_up.svg") 0 0/100% 100% no-repeat;
+  background: url("../img/arrow_up.svg") 0 0/100% 100% no-repeat;
 }
 .footer__up-text {
   margin-top: 20px;
