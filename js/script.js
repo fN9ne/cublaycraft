@@ -13,13 +13,13 @@ function togglePlayPause() {
 		pv.style.bottom = '15px';
 		pv.style.right = '320px';
 	} else {
-		video.style.width = '310px';
+		video.style.width = '355px';
 		video.style.height = '200px';
-		pv.style.width = '310px';
+		pv.style.width = '355px';
 		pv.style.height = '200px';
 		info.style.right = '310px';
-		pv.style.bottom = '143px';
-		pv.style.right = '770px';
+		pv.style.bottom = '145px';
+		pv.style.right = '725px';
 	}
 }
 
