@@ -30,7 +30,7 @@ video.onclick = function() {
 $(document).ready(function(){
 	$('.page__slider__images').slick({
 		infinite: true,
-  		speed: 1000,
+  		speed: 750,
   		slidesToShow: 2,
   		variableWidth: true,
  		autoplay: true,
